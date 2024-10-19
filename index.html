@@ -28,8 +28,8 @@
             <label for="address">Address:</label>
             <textarea id="address" name="address" rows="4" required> </textarea>
           </div>
-          <div class="picture-container">
-            <img src="./mypic.jpg" alt="pic" />
+          <div class="picture-container" id="pic">
+            <img src="./mypic.jpg"  id="file" />
           </div>
         </div>
         <fieldset>
@@ -51,11 +51,13 @@
 
       <button type="submit">Generate Resume</button>
     </form>
-
+<br>
     <!-- Form End -->
 
     <!-- Resume Generated -->
-    <div id="resumeOutput"></div>
+    <div id="resumeOutput">
+
+    </div>
 
     <script src="app.js"></script>
   </body>
